@@ -1,0 +1,546 @@
+
+/* PORTADA*/
+.portada{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    padding: 33px 33px 22px;
+     margin:.5em .5em .5em .5em;
+    display: flex;
+}
+.columna-portada-izquierda{    
+    /*width: 33.33333333%;*/
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    padding: 33px 33px 22px;
+    margin:.5em .5em .5em .5em;
+    display: table-cell;    
+}
+.columna-portada-derecha{  
+    /*width: 66.66666667%;*/
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    padding: 33px 33px 22px;
+    margin:.5em .5em .5em .5em;
+    display: table-cell;
+    
+}
+.imagen-portada {  
+/*    width: 100%;*/
+    margin-bottom: 20px;
+    
+}
+.imagen{    
+    width: 100%; 
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    border-radius: 10px;
+}
+
+.titulo-carrera{
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.span-titulo-carrera{
+    color: white;
+}
+
+.columna-descripcion{}
+.columna-saludo{}
+.hola{color:#5D6D7E }
+.h2-columna-saludo{color: #85929E}
+.h3-columna-desarrollador{color: #757575;}
+
+.p-descripcion{ color:  #85929E; }
+
+.datos-personales-izquierda-derecha{display: flex;}
+
+.datos-personales{color:#5D6D7E;}
+.datos-personales-lista{    
+    list-style-type: none;
+}
+.elemento-lista-datos-personales{}
+.titulo-informacion{}
+.informacion{}
+
+.redes-sociales{ }
+.titulo-redes-sociales{color: #85929E; }
+.lista-redes-sociales{
+    display: flex;
+    list-style-type: none;
+}
+.elemento-lista-redes-sociales{ color: #7FB3D5 }
+.fa-facebook-square {color: #7FB3D5;  margin:.5em .5em .5em .5em;}
+.fa-twitter-square{color: #7FB3D5;  margin:.5em .5em .5em .5em;}
+.fa-linkedin {color: #7FB3D5; margin:.5em .5em .5em .5em; }
+/* PORTADA*/
+
+
+
+/* HABILIDADES*/
+.habilidades{
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    color: white;
+    text-align: center; 
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.titulo-habilidades{
+   
+}
+.h2-titulo-habilidades{}
+#barra-progreso {     
+    background-color: white; 
+    border-radius: 13px;  
+    padding: 3px;   
+    margin:.5em .5em .5em .5em;
+} 
+
+/*#progressbar > div {
+    background-color: orange; 
+    width: 40%;
+    height: 20px; 
+    border-radius: 10px; 
+    
+}*/
+#html5{
+    
+    background-color: orange; 
+    width: 20%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+
+#css3{
+    background-color: orange; 
+    width: 11%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#java{
+    background-color: orange; 
+    width: 40%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#csharp{
+    background-color: orange; 
+    width: 36%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#mysql{
+    background-color: orange; 
+    width: 60%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#react{
+    background-color: orange; 
+    width: 19%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#angular{
+    background-color: orange; 
+    width: 16%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#ionic{
+    background-color: orange; 
+    width: 19%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+
+.habilidades-personales{}
+.habilidades-programacion{}
+.habilidaddes-idiomas{}
+.h2-habilidades-idiomas{}
+#ingles{
+    background-color: #318DE2; 
+    width: 19%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+
+/* HABILIDADES*/
+
+/* EDUCACION*/
+.educacion{
+    box-shadow: 0 0 5px rgba(0,0,0,.4);  
+    
+}
+.titulo-educacion{
+    text-align: center; 
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.h2-titulo-educacion{}
+.contenido-educacion-1{display: flex;  }
+.contenido-educacion-2{display: flex;}
+.contenido-educacion-superior-1-1{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+}
+.contenido-educacion-superior-1-2{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+}
+.contenido-educacion-superior-1-3{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+}
+.contenido-educacion-superior-2-1{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+}
+.contenido-educacion-superior-2-2{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.box {
+  width: 200px; height: 300px;
+  position: relative;
+  border: 1px solid #BBB;
+  background: #EEE;
+}
+.cinta {
+  position: absolute;
+  left: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.cinta span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#2989d8 0%, #1e5799 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; left: -21px;
+}
+.cinta span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #1e5799;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #1e5799;
+}
+.cinta span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #1e5799;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #1e5799;
+}
+
+.lista-educacion-especialidad{list-style-type: none;}
+.educacion-especialidad{color:#5D6D7E;}
+.educacion-icono{margin:.5em .5em .5em .5em;}
+.educacion-nombre{}
+.lista-educacion-superior{list-style-type: none;}
+.educacion-superior{margin:.5em .5em .5em .5em;}
+.nombre-universidad{color:#5D6D7E;}
+.descripcion-educacion{
+    color: #85929E;
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    margin:.5em .5em .5em .5em;
+    padding: 10px 10px 10px;
+    text-align: justify; /* For Edge */
+    text-align-last: justify;
+}
+
+
+
+/* EDUCACION*/
+
+/* EXPERIENCIA*/
+.experiencia{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    text-align: center; 
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+/* EXPERIENCIA*/
+
+/* PORTAFOLIO*/
+.portafolio{}
+.titulo-portafolio{
+    box-shadow: 0 0 5px rgba(0,0,0,.4);     
+    text-align: center; 
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.h2-titulo-portafolio{}
+.contenedor {
+  position: relative;
+  width: 50%;
+  width: 35%; 
+  margin:.5em .5em .5em .5em;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cubrir {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.contenedor:hover .cubrir { 
+  bottom: 0;
+  height: 100%;
+   
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.portafolio-imagenes{display: flex}
+
+/* PORTAFOLIO*/
+
+/* INTERESES*/
+.intereses{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    color: #85929E; 
+    padding: 33px 33px 22px; 
+    margin:.5em .5em .5em .5em;
+}
+.titulo-intereses{
+    text-align: center; 
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.h2-titulo-intereses{}
+.p-interes{}
+.contenido-intereses{display: flex;}
+
+.musica{
+    margin:.5em .5em .5em .5em; 
+    background:#7FB3D5;
+    text-align: center;
+    border: 3px solid green;    
+}
+.imagen-interes-musica{
+    margin:.5em .5em .5em .5em;
+}
+.h3-intereses-musica{color: aliceblue;}
+
+.peliculas{ 
+    margin:.5em .5em .5em .5em;
+    background:#7FB3D5;
+    text-align: center;
+    border: 3px solid green;
+}
+.imagen-interes-peliculas{    
+   color: #1F7F6B;
+   font-size: 30px;
+   padding: 5px;    
+}
+.h3-intereses-peliculas{color: aliceblue;}
+
+.juegos{
+    margin:.5em .5em .5em .5em;
+    background:#7FB3D5;
+    text-align: center;
+    border: 3px solid green;
+}
+.imagen-interes-juegos{   
+   color: #1F7F6B;
+   font-size: 30px;
+   padding: 5px;
+}
+.h3-intereses-juegos{color: aliceblue;}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* INTERESES*/
+
+/*CONTACTOS*/
+.contacto{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    padding: 33px 33px 22px;
+     margin:.5em .5em .5em .5em;
+}
+.titulo-contacto{    
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.h2-titulo-contacto{}
+.contenido-formulario{
+    display: flex;
+}
+
+.columna-izquierda-formulario{
+    box-shadow: 0 0 5px rgba(0,0,0,.4);  
+    margin:.5em .5em .5em .5em; 
+    padding: 33px 33px 22px;
+    
+}
+.formulario-contacto{}
+.h3-titulo-formulario{color: #85929E}
+.formulario{}
+
+.columna-derecha-formulario{
+    box-shadow: 0 0 5px rgba(0,0,0,.4);  
+    padding: 33px 33px 22px;
+    margin:.5em .5em .5em .5em;
+}
+.datos-contacto{}
+
+.direccion-contacto{color: #85929E}
+.fa-map-marked{
+    background: #7FB3D5;
+   color: #1F7F6B;
+   font-size: 30px;
+   padding: 5px;
+    margin:.5em .5em .5em .5em;
+}
+
+.telefono-contacto{color: #85929E}
+.fa-phone{
+    background: #7FB3D5;
+   color: #1F7F6B;
+   font-size: 30px;
+   padding: 5px;
+    margin:.5em .5em .5em .5em;
+}
+
+.correo-contacto{color: #85929E}
+.fa-envelope-open-text{
+    background: #7FB3D5;
+   color: #1F7F6B;
+   font-size: 30px;
+   padding: 5px;
+    margin:.5em .5em .5em .5em;
+}
+
+.web-contacto{color: #85929E}
+.fa-link{
+    background: #7FB3D5;
+   color: #1F7F6B;
+   font-size: 30px;
+   padding: 5px;
+    margin:.5em .5em .5em .5em;
+}
+
+
+ /*{box-sizing:border-box;}*/
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+.boton-enviar{
+    text-decoration: none;
+    padding: 3px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 6px;
+    display: block;   
+    margin: 0 auto;
+   
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;	
+	resize:none;
+	display:block;
+}
+/*CONTACTOS*/
