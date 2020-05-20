@@ -147,6 +147,42 @@
     height: 20px; 
     border-radius: 10px; 
 }
+#phyton{
+    background-color: orange; 
+    width: 6%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#flutter{
+    background-color: orange; 
+    width: 4%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#git-github{
+    background-color: orange; 
+    width: 40%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#kotlin{
+    background-color: orange; 
+    width: 8%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#sql-inyection{
+    background-color: orange; 
+    width: 3%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#doker{
+    background-color: orange; 
+    width: 3%;
+    height: 20px; 
+    border-radius: 10px; 
+}
 
 .habilidades-personales{}
 .habilidades-programacion{}
@@ -155,6 +191,12 @@
 #ingles{
     background-color: #318DE2; 
     width: 19%;
+    height: 20px; 
+    border-radius: 10px; 
+}
+#aleman{
+    background-color: #318DE2; 
+    width: 2%;
     height: 20px; 
     border-radius: 10px; 
 }
