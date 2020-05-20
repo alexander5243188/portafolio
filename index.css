@@ -192,6 +192,12 @@
     padding: 33px 33px 22px;
     box-shadow: 10px 10px 5px grey;
 }
+.contenido-educacion-superior-1-4{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+}
 .contenido-educacion-superior-2-1{
     box-shadow: 0 0 5px rgba(0,0,0,.4); 
     margin:.5em .5em .5em .5em;
@@ -277,11 +283,97 @@
 
 /* EXPERIENCIA*/
 .experiencia{
-    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    box-shadow: 0 0 5px rgba(0,0,0,.4);    
+}
+.titulo-experiencia{
     text-align: center; 
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
+.h2-titulo-experiencia{}
+.full-stack{display: flex;}
+.front-end{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+    background: #007BFE;
+    color: white;
+}
+.contenido-1{}
+.contenido-front-end{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+}
+.contenido-2{}
+.contenido-back-end{
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+}
+.contenido-3{}
+.contenido-database{
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+}
+.contenido-4{}
+.contenido-dev-ops{
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+}
+.contenido-5{}
+.contenido-movile-app{
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+}
+.full-stack-p{font-family: cursive;}
+.full-stack-p-titulo{
+    font-family:monospace;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+
+.backend{
+   box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+    background: #F04B69;
+    color: white;
+  
+}
+.database{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+    background: #3AE08D;
+    color: white;
+   
+}
+.devops{
+   box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+    background: #FFCC26;
+    color: white;
+}
+.mobile-app{
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    margin:.5em .5em .5em .5em;
+    padding: 33px 33px 22px;
+    box-shadow: 10px 10px 5px grey;
+    background: #CFD9E5;
+    color: white;
+}
+
 /* EXPERIENCIA*/
 
 /* PORTAFOLIO*/
@@ -531,16 +623,5 @@ form input[type="submit"]{
     border-radius: 6px;
     display: block;   
     margin: 0 auto;
-   
-
-textarea{
-	width:100%;
-	height:100px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:#f6f6f6;			
-	margin:8px 0;	
-	resize:none;
-	display:block;
 }
 /*CONTACTOS*/
